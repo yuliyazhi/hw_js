@@ -1,0 +1,30 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+#gallery {
+
+    margin: 0 auto;
+    text-align: center;
+    width: 1000px;
+    background-color: rgb(170, 229, 179);
+}
+
+
+#gallery .photos img {
+    justify-self: center;
+    width: 30vw;
+    height: 40vh;
+
+}
+
+
+button {
+    font-size: 18px;
+    padding: 1rem 1rem;
+    margin: 3rem;
+    m cursor: pointer;
+}

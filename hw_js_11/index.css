@@ -1,0 +1,51 @@
+.container {
+    width: 40%;
+    min-width: 450px;
+    top: 20%;
+    margin-left: 25%;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    padding-bottom: 3%;
+
+}
+
+input {
+
+    width: 15vw;
+    height: 5vh;
+    margin: 5%;
+
+}
+
+.doneTask {
+    text-decoration: line-through;
+
+}
+
+h1 {
+    margin-left: 35%;
+}
+
+#newtask {
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+
+
+}
+
+
+
+button {
+    width: 7vw;
+    height: 5vh;
+    border-radius: 5px;
+    box-sizing: content-box;
+    background-color: cornflowerblue;
+
+}
+
+li {
+    color: darkorange;
+}
