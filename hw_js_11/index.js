@@ -1,7 +1,7 @@
 
 
 function createTask() {
-    const task = document.getElementById('newtask');
+    const task = document.querySelector('ul');
     const newElement = document.createElement('li');
     let input = document.querySelector('input');
     newElement.textContent = input.value;
@@ -22,10 +22,3 @@ list.addEventListener('click', function (evt) {
     }
 });
 
-/*
-var ttttt = document.querySelector('.list');
-
-function showConsole() {
-    console.log('Мы кликнули по элементу');
-}
-ttttt.onclick = showConsole;*/
