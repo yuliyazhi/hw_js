@@ -1,0 +1,34 @@
+.calculator {
+	text-align: center;
+	font-size: 20px;
+	width: 450px;
+	margin: 100px auto;
+	padding: 20px 20px 9px 25px;
+	background: linear-gradient(#dcebe0, #caf8ca);
+	border-radius: 3px;
+
+}
+
+
+
+input {
+
+	border: 1px solid gray;
+	width: 150px;
+	height: 50px;
+	margin: 25px;
+	text-align: center;
+
+
+}
+
+.calc {
+	color: white;
+	background-color: green;
+	width: 150px;
+}
+
+#result {
+	color: red;
+	font-size: 50px;
+}
