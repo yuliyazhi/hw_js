@@ -10,6 +10,19 @@
 }
 
 
+.calc {
+	color: white;
+	font-size: 20px;
+	background-color: rgb(225, 94, 124);
+	width: 200px;
+
+}
+
+
+
+.error {
+	color: crimson;
+}
 
 input {
 
@@ -22,13 +35,7 @@ input {
 
 }
 
-.calc {
-	color: white;
-	font-size: 20px;
-	background-color: rgb(225, 94, 124);
-	width: 200px;
 
-}
 
 :hover.calc {
 	background-color: rgb(94, 194, 225);
