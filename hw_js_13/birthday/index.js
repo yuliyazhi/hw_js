@@ -42,7 +42,7 @@ function calculateDiff() {
     if (difference % 10 === 1 && difference % 100 !== 11) dayright = " день"
     else
         if (difference % 10 >= 2 && difference % 10 <= 4 && (difference % 100 < 10 || difference % 100 >= 20)) dayright = " дня"
-        else dayright = " дней"
+        else dayright = " дней";
 
     if (difference < 0) {
         document.querySelector('.text span').innerText = ("Дата меньше текущей");
